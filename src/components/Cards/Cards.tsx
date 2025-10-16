@@ -10,7 +10,7 @@ const Cards = () => {
         "Shop our highly coveted collection of mid-century furniture and contemporary art.",
       btnText: "SHOP",
       btnLink: "#",
-      img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTs4jJaTVanFHpN6J9l98bLy2Oi3IYWsj_jYA&s", // replace with your image
+      img: "/PICTURES/_DEV0791.jpg", 
     },
     {
       id: 2,
@@ -19,7 +19,7 @@ const Cards = () => {
         "We would love to curate your residential or commercial space. View our services here.",
       btnText: "VIEW",
       btnLink: "#",
-      img: "https://img.freepik.com/free-photo/mid-century-modern-living-room-interior-design-with-monstera-tree_53876-129805.jpg",
+      img: "/PICTURES/_DEV0848.jpg",
     },
     {
       id: 3,
@@ -28,7 +28,7 @@ const Cards = () => {
         "Explore Kerrie-Ann's portfolio of evocative & elevated interiors.",
       btnText: "EXPLORE",
       btnLink: "#",
-      img: "https://www.worldfurnitureonline.com/wp-content/uploads/2021/10/World-Furniture-Online_39.jpg",
+      img: "/PICTURES/_DEV0854.jpg",
     },
   ];
 

@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 
 const LEADING = () => {
@@ -6,7 +7,7 @@ const LEADING = () => {
       <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 items-center px-6">
         {/* Left Side (Image / Placeholder) */}
         <div className="w-full h-[400px] bg-gray-300 flex items-center justify-center">
-          <p className="text-gray-600 text-lg">Image Placeholder</p>
+         <Image src="/PICTURES/_DEV0914.jpg" alt="Leading Interior Stylist" width={600} height={400} className="object-cover w-full h-full"/>
         </div>
 
         {/* Right Side (Content) */}

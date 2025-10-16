@@ -6,41 +6,42 @@ import React, { useRef } from "react";
 const arrivalsData = [
   {
     id: 1,
-    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdAV1KALBroKb9CoqqxzLDTNHcz9jIXc-U3-VHz92VEjzJ14tR6UZScVwxgvuv_G0j3dM&usqp=CAU",
+    img: "/PICTUREs/_DEV0809.jpg",
     title: "Fantasma Floor Lamp",
     price: "$10,950.00",
   },
   {
     id: 2,
-    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdAV1KALBroKb9CoqqxzLDTNHcz9jIXc-U3-VHz92VEjzJ14tR6UZScVwxgvuv_G0j3dM&usqp=CAU",
+    img: "/PICTUREs/_DEV0830.jpg",
     title: "Medium Ceramic Black Footed Bowl",
     price: "$240.00",
   },
   {
     id: 3,
-    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRq-zZ0i8ma9EldhQWdAVDE3ph6EHOGBnFpRfbyvi4jo5q34nkR7_id7NA-oOVaRFreVKw&usqp=CAU",
+    img: "/PICTUREs/_DEV0836.jpg",
     title: "Pianura Black Velvet Armchairs",
     price: "$7,900.00",
   },
   {
     id: 4,
-    img: "https://cdn.prod.website-files.com/5f2b10811da7064399ed3a1c/67640b5b33d1a8708c0843b2_1.webp",
+    img: "/PICTUREs/_DEV0842.jpg",
     title: "Impermanence Original Artwork",
     price: "$4,200.00",
   },
   {
     id: 5,
-    img: "https://i.pinimg.com/236x/9f/ea/4f/9fea4f0a53db0fca4c3acd43e2d50319.jpg",
+    img: "/PICTUREs/_DEV0875.jpg",
     title: "Vintage Side Table",
     price: "$1,800.00",
   },
   {
     id: 6,
-    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTeVeckCBLHZGq_giYkcVr8MvNgqgc5OrpXEtGt9OX3ZRXIsSpxcUeU1O_vPENCzy1Fre8&usqp=CAU",
+    img: "/PICTUREs/_DEV0809.jpg", // You can reuse one of your images or add a new one
     title: "Classic Floor Vase",
     price: "$350.00",
   },
 ];
+
 
 const ARRIVALS = () => {
   const scrollRef = useRef<HTMLDivElement>(null);
@@ -60,20 +61,20 @@ const ARRIVALS = () => {
       {/* Header */}
       <div className="flex justify-between items-center mb-6">
         <h2
-          className="text-2xl font-bold text-gray-600 uppercase"
+          className="text-2xl font-bold text-gray-600 uppercase text-white"
           style={{
             fontFamily: "var(--FONT-STACK-HEADING)",
             fontStyle: "var(--FONT-STYLE-HEADING)",
             fontWeight: "var(--FONT-WEIGHT-HEADING)",
             letterSpacing: "var(--LETTER-SPACING-HEADING)",
-            lineHeight: 1.2,
+            // lineHeight: 1.2,
             margin: "0.5em 0",
           }}
         >
           NEW ARRIVALS
         </h2>
 
-        <button className="border border-gray-600 text-white px-4 py-2 hover:bg-white hover:text-[#a67c52] transition">
+        <button className="border text-white px-4 py-2 hover:bg-white hover:text-[#a67c52] transition cursor-pointer">
           SHOP NOW
         </button>
       </div>
